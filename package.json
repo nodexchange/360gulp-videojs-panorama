@@ -1,0 +1,24 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://stash.ops.aol.com/projects/PICTELA/repos/techservices/browse"
+  },
+  "name": "responsivearchant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-file-includer": "^1.0.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
