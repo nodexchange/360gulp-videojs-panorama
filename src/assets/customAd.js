@@ -159,13 +159,13 @@
 			if (iOS) {
 				var self = this;
 				var evtBus = this.advert.eventBus;
-				
+				/*
 				targetWindow.addEventListener('deviceorientation', function(eventData) {
 					var deviceOrientationEvent = new self.richMediaEvent('proxyDeviceOrientation');
 					deviceOrientationEvent.meta = {gamma:eventData.gamma, beta: eventData.beta, alpha: eventData.alpha, absolute: eventData.absolute, timeStamp: eventData.timeStamp};
 					evtBus.dispatchEvent(deviceOrientationEvent);
 				}, false);
-				
+				*/
 				targetWindow.addEventListener('devicemotion', function(eventData) {
 					var deviceMotionEvent = new self.richMediaEvent('proxyDeviceMotion');
 					deviceMotionEvent.meta = {rotationRate:eventData.rotationRate, portrait: eventData.portrait, landscape: eventData.landscape, orientation: eventData.orientation, timeStamp: eventData.timeStamp};
